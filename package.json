@@ -1,0 +1,25 @@
+{
+  "name": "ui-basics-benny-s-burger-Julianb18",
+  "version": "1.0.0",
+  "description": "> Let's use Bootstrap to create a restaurant page!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-styles": "node-sass -w -r sass -o styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dci-ber-fbw21/ui-basics-benny-s-burger-Julianb18.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dci-ber-fbw21/ui-basics-benny-s-burger-Julianb18/issues"
+  },
+  "homepage": "https://github.com/dci-ber-fbw21/ui-basics-benny-s-burger-Julianb18#readme",
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "node-sass": "^4.13.0"
+  }
+}

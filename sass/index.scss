@@ -1,0 +1,39 @@
+@import "edited-bootstrap.scss";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/forms";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/card";
+@import "../node_modules/bootstrap/scss/carousel";
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/type";
+@import url("https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap");
+.hero {
+  background: url(/images/hero.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.icon {
+  width: 75px;
+  height: 75px;
+
+  ​ & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+h1,
+h2,
+h3 {
+  font-family: "Love Ya Like A Sister", cursive;
+}
+.benny {
+  overflow-x: scroll;
+}
