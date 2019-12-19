@@ -4909,7 +4909,7 @@ mark,
     content: "\2014\00A0"; }
 
 .hero {
-  background: url(/images/hero.jpg);
+  background: url(../images/hero.jpg);
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat; }
